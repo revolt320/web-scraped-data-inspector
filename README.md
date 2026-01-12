@@ -1,6 +1,9 @@
-# Custom Data Inspection Tool (Streamlit)
+# Data Inspectors (Streamlit)
 
-A custom data inspection tool built with Streamlit is an interactive web application that allows users to upload, explore, and analyze datasets without needing to write code.
+Data Inspectors is a lightweight data inspection and profiling tool built with Streamlit, designed to quickly identify common issues in web-scraped datasets.
+
+It helps analysts and scraping engineers explore, validate, and understand datasets before downstream processing or delivery.
+
 
 It typically provides features such as:
 
@@ -18,4 +21,4 @@ Filtering Options – Lets users apply conditions like “equals,” “contains
 
 Group & Aggregation – Enables summarizing data by grouping columns and applying aggregate functions (sum, average, count, etc.).
 
-Find the self hosted page here: https://explore.streamlit.app/
+Find the hosted page here: https://explore.streamlit.app/
