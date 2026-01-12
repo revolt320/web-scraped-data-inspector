@@ -32,8 +32,8 @@ It helps analysts and scraping engineers explore, validate, and understand datas
 
 - **Filtering**
   - Filter data using conditions such as:
-  - Equals
-  - Contains
+    - Equals
+    - Contains
 
 - **Explore (Sampling)**
   - Random or rule-based sampling for quick exploration
