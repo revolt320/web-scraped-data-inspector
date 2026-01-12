@@ -31,8 +31,12 @@ It helps analysts and scraping engineers explore, validate, and understand datas
 
 - **Group & Aggregation**
   - Group-by operations with aggregations (count, sum, average, etc.)
+
  
 
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://explore.streamlit.app/)
+
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-red)](https://explore.streamlit.app/)
+
 
