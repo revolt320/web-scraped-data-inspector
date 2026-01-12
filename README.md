@@ -1,24 +1,33 @@
-# Data Inspectors (Streamlit)
+# Data Inspector (Streamlit)
 
-Data Inspectors is a lightweight data inspection and profiling tool built with Streamlit, designed to quickly identify common issues in web-scraped datasets.
+A lightweight data inspection and profiling tool built with Streamlit, designed to quickly identify common issues in web-scraped datasets.
 
 It helps analysts and scraping engineers explore, validate, and understand datasets before downstream processing or delivery.
 
 
-It typically provides features such as:
+## Features
 
-File Upload – Supports CSV, Excel, or other formats for importing datasets.
+- **File Upload**
+  - Supports CSV, Excel, and other common data formats
 
-Basic Information – Displays filename, number of rows, columns, column names, and data types.
+- **Basic Dataset Information**
+  - Filename, row count, column count
+  - Column names and data types
 
-Data Preview – Shows a scrollable or paginated view of the dataset.
+- **Data Preview**
+  - Scrollable or paginated dataset view
 
-Summary Statistics – Automatically computes descriptive statistics (mean, median, min/max, counts, nulls, etc.) for numerical and categorical columns.
+- **Summary Statistics**
+  - Descriptive stats for numerical and categorical columns
+  - Null counts, min/max, mean, median, etc.
 
-Unique Value Analysis – Lists distinct values in a column, along with frequencies (useful for categorical exploration).
+- **Unique Value Analysis**
+  - Distinct values with frequency counts for categorical columns
 
-Filtering Options – Lets users apply conditions like “equals,” “contains,” “is null,” etc., to subset the data dynamically.
+- **Filtering**
+  - Dynamic filters such as equals, contains, is null, and more
 
-Group & Aggregation – Enables summarizing data by grouping columns and applying aggregate functions (sum, average, count, etc.).
+- **Group & Aggregation**
+  - Group-by operations with aggregations (count, sum, average, etc.)
 
 Find the hosted page here: https://explore.streamlit.app/
