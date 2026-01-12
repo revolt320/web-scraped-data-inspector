@@ -13,29 +13,42 @@ It helps analysts and scraping engineers explore, validate, and understand datas
   - Supports CSV, Excel, and JSON formats
 
 - **Basic Dataset Information**
-  - Filename, row count, column count
+  - Filename
+  - Row count and column count
+  - Dataset summary
   - Column names and data types
 
 - **Data Preview**
   - Scrollable or paginated dataset view
 
-- **Summary Statistics**
-  - Descriptive stats for numerical and categorical columns
-  - Null counts, min/max, mean, median, etc.
+- **Formatting Checks**
+  - Detection of extra leading/trailing spaces
+  - HTML tag presence
+  - Unicode and special character checks
 
 - **Unique Value Analysis**
-  - Distinct values with frequency counts for categorical columns
+  - Identification of unique values per column
+  - Helps detect site updates or structural data changes
 
 - **Filtering**
-  - Dynamic filters such as equals, contains, is null, and more
+  - Filter data using conditions such as:
+  - Equals
+  - Contains
 
-- **Group & Aggregation**
-  - Group-by operations with aggregations (count, sum, average, etc.)
+- **Explore (Sampling)**
+  - Random or rule-based sampling for quick exploration
+ 
+- **Group & Summarize**
+  - Group-by operations for summarizing data
+  - Aggregate functions such as count, sum, and averages
 
  
 
 
 
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-red)](https://explore.streamlit.app/)
+## Live Demo 
+
+https://explore.streamlit.app/
+
 
 
