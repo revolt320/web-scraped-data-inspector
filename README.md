@@ -5,10 +5,12 @@ A lightweight data inspection and profiling tool built with Streamlit, designed 
 It helps analysts and scraping engineers explore, validate, and understand datasets before downstream processing or delivery.
 
 
+
+
 ## Features
 
 - **File Upload**
-  - Supports CSV, Excel, and other common data formats
+  - Supports CSV, Excel, and JSON formats
 
 - **Basic Dataset Information**
   - Filename, row count, column count
@@ -29,5 +31,8 @@ It helps analysts and scraping engineers explore, validate, and understand datas
 
 - **Group & Aggregation**
   - Group-by operations with aggregations (count, sum, average, etc.)
+ 
 
-Find the hosted page here: https://explore.streamlit.app/
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://explore.streamlit.app/)
+
