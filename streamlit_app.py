@@ -136,7 +136,7 @@ if uploaded_file is not None and df is not None:
 
     tabs = st.tabs([
         "Basic Info", "Preview", "Formating checks",
-        "Unique Values", "Match", "Explore", "Group by", "Generate Dataset"
+        "Unique Values", "Match", "Explore", "Group by"
     ])
 
     # --- Basic Info ---
@@ -189,11 +189,18 @@ if uploaded_file is not None and df is not None:
         unique_values = df[column_name].dropna().unique()
         st.dataframe(pd.DataFrame(unique_values, columns=[column_name]), use_container_width=True)
 
-        if st.button("Next Column"):
-            if st.session_state[sheet_key] < len(df.columns) - 1:
-                st.session_state[sheet_key] += 1
-            else:
-                st.session_state[sheet_key] = 0
+    st.button(
+        "Next Column",
+        key=f"next_btn_{sheet_key}",
+        on_click=next_column,
+        args=(sheet_key, len(df.columns))
+    )
+
+  # if st.button("Next Column"):
+   #         if st.session_state[sheet_key] < len(df.columns) - 1:
+    #            st.session_state[sheet_key] += 1
+      #      else:
+      #          st.session_state[sheet_key] = 0 ```
 
     # --- Match ---
     with tabs[4]:
